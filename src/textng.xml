@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Automation Test Suite" >
+  <test name="Different testing feathers Test" >
+    <classes>
+       <class name="NaveeenAutomationLab.ExceptionTimeOutTest" />
+       <class name="NaveeenAutomationLab.GoogleTest" />
+       <class name="NaveeenAutomationLab.GoogleTitleTest" />
+       <class name="NaveeenAutomationLab.InvocationCountTest" />
+       <class name="NaveeenAutomationLab.testFeathers" />
+       <class name="NaveeenAutomationLab.TestNGpractice" />
+        
+    </classes>
+  </test>
+
+</suite>

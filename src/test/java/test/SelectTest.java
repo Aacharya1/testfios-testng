@@ -26,7 +26,7 @@ public class SelectTest {
 		// Select South America
 		Select select = new Select(driver.findElement(By.id("continents")));
 		select.selectByIndex(4);
-
+		
 		// Select select = new Select(driver.findElement(By.id("sdfdsfdsf")));
 
 		Thread.sleep(10000);
